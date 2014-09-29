@@ -36,6 +36,7 @@ HOW TO USE
 3. Go to a project root dir where *.gcda and *.gcno files placed.
 4. Run **lcov.bat**
 
+    
     ```
     d:\project> d:\lcov\lcov.bat
     Creating gcov\lcov.info ...
@@ -43,4 +44,5 @@ HOW TO USE
     d:\lcov/geninfo.perl . --output-filename gcov/lcov.info --base-directory .Found gcov version: 4.4.2
     Scanning . for .gcda files ...
     ```
+    
 5. After execution **gcov\html** dir will be created with html reports for current project.
