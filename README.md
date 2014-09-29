@@ -10,17 +10,23 @@ Installation
 
 0. Install Perl if not installed. For example to **C:\Perl**
 1. Open Windows Command Processor and run to create association (do not forget to change path to **perl.exe**)
-
+    
+    ```
     assoc .perl=Perl.File
     ftype Perl.File=C:\Perl\bin\perl.exe "%1" %* 
+    ```
 
 2. Define correct path of GCOV executable in **geninfo.perl**:
       
+    ```
     our $gcov_tool = "C:\\CORRECT_PATH_TO\\gcov.exe";
+    ```
 
 3. Define correct path of Perl executable in **lcov.bat**:
 
+    ```
     set perl=C:\CORRECT_PATH_TO\Perl.exe
+    ```
 
 HOW TO USE
 ==========
