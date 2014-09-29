@@ -1,4 +1,4 @@
-Ported LCOV Code Coverage tool to Windows
+Ported to Windows LCOV Code Coverage tool
 ==================
 
 [LCOV] (http://ltp.sourceforge.net/coverage/lcov.php) is a graphical front-end for GCC's coverage testing tool gcov. It collects gcov data for multiple source files and creates HTML pages containing the source code annotated with coverage information. It also adds overview pages for easy navigation within the file structure. LCOV supports statement, function and branch coverage measurement.
