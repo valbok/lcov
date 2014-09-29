@@ -43,5 +43,4 @@ HOW TO USE
     d:\lcov/geninfo.perl . --output-filename gcov/lcov.info --base-directory .Found gcov version: 4.4.2
     Scanning . for .gcda files ...
     ```
-
 5. After execution **gcov\html** dir will be created with html reports for current project.
