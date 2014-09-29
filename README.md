@@ -1,0 +1,4 @@
+lcov
+====
+
+Ported to Windows
