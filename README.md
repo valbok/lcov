@@ -33,7 +33,7 @@ HOW TO USE
 
 1. Compile your project to support [GCOV](https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html#Invoking-Gcov). As a result *.gcno files will be created.
 2. Run your binaries and *.gcda files will be created. You can place them to the same dir with *.gcno.
-3. Go to a project root dir where *.gcda and *.gcno files placed
+3. Go to a project root dir where *.gcda and *.gcno files placed.
 4. Run **lcov.bat**
 
     ```
